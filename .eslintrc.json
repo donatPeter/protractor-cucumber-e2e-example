@@ -1,5 +1,9 @@
 {
     "extends": "airbnb-base",
+    "rules": {
+        "class-methods-use-this": "off",
+        "object-curly-newline": "off"
+    },
     "globals": {
         "browser": true
     }
