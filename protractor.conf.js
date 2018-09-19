@@ -1,5 +1,5 @@
 exports.config = {
-  seleniumAddress: 'http://localhost:4444/wd/hub',
+  directConnect: true,
   getPageTimeout: 60000,
   allScriptsTimeout: 500000,
   framework: 'custom',
